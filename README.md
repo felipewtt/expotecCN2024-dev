@@ -72,3 +72,4 @@ pip freeze > requirements.txt
 ```
 
 Faça o commit da alteração informando o pacote que foi adicionado.
+# expotecCN2024-dev
