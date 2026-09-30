@@ -48,7 +48,7 @@ graphviz==0.20.3
 h11==0.14.0
 htmx==0.0.0
 httpcore==1.0.5
-httptools==0.6.1
+httptools; sys_platform !="win32"
 httpx==0.27.2
 idna==3.7
 ifaddr==0.2.0
@@ -59,7 +59,7 @@ MarkupSafe==2.1.5
 multidict==6.0.5
 nicegui==2.0.1
 oauthlib==3.2.2
-orjson==3.10.7
+orjson; sys_platform !="win32"
 persisting-theory==1.0
 pilkit==3.0
 pillow==10.4.0
@@ -95,9 +95,9 @@ typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
 uvicorn==0.30.6
-uvloop==0.21.0; sys_platform != "win32"
+uvloop; sys_platform != "win32"
 vbuild==0.8.2
-watchfiles==0.24.0
+watchfiles; sys_platform !="win32"
 webencodings==0.5.1
 websockets==13.0.1
 wheel==0.44.0
